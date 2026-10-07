@@ -1,0 +1,98 @@
+```html
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinHub</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #0b0b0f;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .card {
+            text-align: center;
+            background: #15151c;
+            padding: 45px 50px;
+            border-radius: 24px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+            width: 90%;
+            max-width: 420px;
+        }
+
+        .discord-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 25px;
+            object-fit: cover;
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 32px;
+        }
+
+        p {
+            margin: 0 0 30px;
+            color: #aaa;
+            font-size: 16px;
+        }
+
+        .join-button {
+            display: inline-block;
+            padding: 14px 32px;
+            background: #5865F2;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 12px;
+            transition: 0.2s ease;
+        }
+
+        .join-button:hover {
+            transform: translateY(-2px);
+            background: #4752c4;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+
+        <!-- Discord-serverns ikon kan läggas här senare -->
+        <img
+            class="discord-logo"
+            src="https://cdn.discordapp.com/embed/avatars/0.png"
+            alt="FinHub">
+
+        <h1>Välkommen till FinHub</h1>
+
+        <p>Häng med i vår Discord-server!</p>
+
+        <a
+            class="join-button"
+            href="https://discord.gg/3QQUqZMXDq"
+            target="_blank">
+            Joina nu
+        </a>
+
+    </div>
+
+</body>
+</html>
+```
